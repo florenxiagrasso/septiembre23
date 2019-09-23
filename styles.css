@@ -1,0 +1,45 @@
+.fondo {
+    
+    width: 100vw;
+    height: 100vh;
+   /* background: url('fondo2.jpg') center no-repeat;
+    background-size: 100%;
+     /* background-size: cover - contain - 50% 25% */
+   /* background-repeat: repeat-x */
+   /*background-position: center - left top */
+}
+
+li {
+    margin-bottom: 25px;
+}
+.link-button {
+    border: 1px solid #333;
+    padding: 5px;
+}
+.link-button:active {
+    color: green;
+}
+.link-button:visited {
+    color:red;
+}
+
+.link-button:hover{
+    background-color: #333;
+    color: white;
+    cursor: help;
+}
+
+li:first-child{
+    background-color: teal;
+}
+li:last-child{
+    background-color: crimson;
+}
+
+li:hover + li {
+    background-color: gray;
+} 
+
+li:hover ~ li {
+    background-color: gray;
+} 
